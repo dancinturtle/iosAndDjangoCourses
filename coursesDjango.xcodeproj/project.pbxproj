@@ -14,6 +14,7 @@
 		953EF7A01E3281E700031ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953EF79E1E3281E700031ACC /* LaunchScreen.storyboard */; };
 		953EF7AB1E3281E700031ACC /* coursesDjangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953EF7AA1E3281E700031ACC /* coursesDjangoTests.swift */; };
 		953EF7B61E3281E700031ACC /* coursesDjangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953EF7B51E3281E700031ACC /* coursesDjangoUITests.swift */; };
+		953EF7C41E32822800031ACC /* CoursesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953EF7C31E32822800031ACC /* CoursesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		953EF7B11E3281E700031ACC /* coursesDjangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursesDjangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953EF7B51E3281E700031ACC /* coursesDjangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesDjangoUITests.swift; sourceTree = "<group>"; };
 		953EF7B71E3281E700031ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953EF7C31E32822800031ACC /* CoursesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				953EF79C1E3281E700031ACC /* Assets.xcassets */,
 				953EF79E1E3281E700031ACC /* LaunchScreen.storyboard */,
 				953EF7A11E3281E700031ACC /* Info.plist */,
+				953EF7C31E32822800031ACC /* CoursesModel.swift */,
 			);
 			path = coursesDjango;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953EF7981E3281E700031ACC /* ViewController.swift in Sources */,
+				953EF7C41E32822800031ACC /* CoursesModel.swift in Sources */,
 				953EF7961E3281E700031ACC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
